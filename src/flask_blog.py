@@ -34,7 +34,7 @@ def register():
 def login():
     form = LoginForm()
     if form.validate_on_submit():
-        if form.email.data == 'admin@blog.com' and form.password.data == 'password':
+        if form.email.data == 'test@test.com' and form.password.data == 'test':
             flash('You have been logged in!', 'success')
             return redirect(url_for('home'))
         else:
