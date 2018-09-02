@@ -1,1 +1,1 @@
-web: gunicorn deploy: Flask_blog
+web: gunicorn src:app
