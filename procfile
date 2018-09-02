@@ -1,1 +1,1 @@
-web: gunicorn deploy: omega words complete
+web: gunicorn deploy: Flask_blog
