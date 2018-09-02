@@ -1,1 +1,1 @@
-web: python src/flask_blog.py
+web: gunicorn app: run.py 
